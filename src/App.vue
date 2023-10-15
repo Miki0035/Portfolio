@@ -26,11 +26,14 @@ import Contact from './components/Contact.vue';
 </script>
 
 <style scoped>
+#main-div {
+  width: 100%;
+}
 .main {
   padding: 0; 
   margin: 0;
-  display: block;
   position: relative;
+  width: 100%;
 }
 .color {
   background-color: var(--main-color);

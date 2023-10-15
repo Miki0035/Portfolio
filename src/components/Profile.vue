@@ -3,20 +3,20 @@
         <div class="app-profile-card">
             <img src="../assets/MIKIYAS_KEBEDE_600x600 px.jpg" alt="profile image">
             <div class="app-profile-card-socials">
-                <a href="#">
-                    <box-icon size="50px"  name='twitter' type='logo' color="var(--text-color)" ></box-icon>
+                <a href="https://twitter.com/@Mikiyas76212789" target="_blank">
+                    <box-icon size="var(--size)"  name='twitter' type='logo' color="var(--text-color)" ></box-icon>
                 </a>
-                <a href="#">
-                    <box-icon size="50px" type='logo' name='linkedin-square' color="var(--text-color)"></box-icon> 
+                <a href="https://www.linkedin.com/in/mikiyas-kebede-b661aa225" target="_blank" >
+                    <box-icon size="var(--size)" type='logo' name='linkedin-square' color="var(--text-color)"></box-icon> 
                 </a>  
-                <a href="#">
-                    <box-icon size="50px" name='github' type='logo' color="var(--text-color)"></box-icon>
+                <a href="https://github.com/Miki0035" target="_blank">
+                    <box-icon size="var(--size)" name='github' type='logo' color="var(--text-color)"></box-icon>
                 </a>
-                <a href="#">
-                    <box-icon size="50px" name='facebook-circle' type='logo' color="var(--text-color)" ></box-icon>
+                <a href="https://www.facebook.com/mikiyas.kebede.3950" target="_blank">
+                    <box-icon size="var(--size)" name='facebook-circle' type='logo' color="var(--text-color)" ></box-icon>
                 </a>
-                <a href="#">
-                    <box-icon size="50px" name='telegram' type='logo' color="var(--text-color)" ></box-icon>
+                <a href="https://t.me/helloworldman123" target="_blank">
+                    <box-icon size="var(--size)" name='telegram' type='logo' color="var(--text-color)" ></box-icon>
                 </a>
             </div>
         </div>
@@ -87,9 +87,9 @@ div.app-profile-card:hover {
     justify-content: space-evenly;
     margin-top: 35px;
 }
-.app-profile-card-socials a box-icon {
+.app-profile-card-socials a {
     margin: 0 10px;
-    max-width: 50%;
+    --size: 50px;
     border-radius: 50%;
     transition: all .3s;
     color: var(--main-color);
@@ -110,5 +110,56 @@ div.app-profile-card:hover {
     --secondary-color: var(--dark-secondary-color);
     --main-color: var(--dark-text-color);
     --text-color: var(--dark-text-color);
+}
+@media (max-width: 1200px) {
+    .app-profile-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .app-profile-card img {
+        width: 50%;
+    }
+    .app-profile-card-socials a {
+        margin: 0 15px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        --size: 50px;
+    }
+    .app-profile-about {
+        margin: 0;
+        line-height: 25px;
+    }
+    .app-profile-about p {
+        font-size: 1.2rem;   
+        margin: 0;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
+@media (max-width: 900px) {
+    .app-profile-card-socials a {
+        margin: 0 10px;
+        --size: 40px;
+    }
+    .app-profile-about p {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 790px) {
+    .app-profile-card img {
+        width: 200px;
+    }
+    .app-profile-card-socials a {
+        margin: 0 10px;
+        --size: 35px;
+    }
+    .app-profile-about p {
+        font-size: 1rem;
+        text-align: center;
+    }
 }
 </style>

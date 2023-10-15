@@ -5,14 +5,14 @@ export const projects =
         imageFrame: "/images/vue.svg",
         imagePro: "/images/vite.svg",
         desc: "Simple to do app, to track your work. Created using Vue.js",
-        link: ""
+        link: "https://mikiyaskebede.netlify.app"
     },
     {
-        title: "Abstrat Web Page",
+        title: "Web Page",
         imageFrame: "/images/html-5-svgrepo-com.svg",
         imagePro: "/images/css-3-svgrepo-com.svg",
         desc: "A Fully Responsive Website. Created using raw HTML, CSS and JS",
-        link:""
+        link:"https://abstract-web-page.vercel.app"
     },
     {
         title: "Admin Dashboard",
@@ -25,7 +25,7 @@ export const projects =
         title: "Profile App",
         imageFrame: "/images/angular-svgrepo-com.svg",
         imagePro: "/images/firebase-svgrepo-com.svg",
-        desc: "A login/signup.Created with Angular and Firebase",
+        desc: "Login/signup.App Created with Angular and Firebase",
         link:""
         
     }

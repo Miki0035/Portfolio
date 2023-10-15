@@ -13,7 +13,7 @@
                         {{ item.desc }}
                     </p>
                 </div>
-                <a :href="item.link">Go to Project</a>
+                <a :href="item.link" target="_blank">Go to Project</a>
             </div>
         </div>
     </div>
@@ -56,7 +56,6 @@ h1 {
 }
 .project-card {
     display: flex;
-    max-width: 20%;
     min-height: 450px;
     background-color: var(--secondary-color);
     flex-direction: column;
@@ -110,5 +109,86 @@ div.project-card:hover {
 .dark {
     --secondary-color: var(--dark-secondary-color);
     --text-color: var(--dark-text-color);
+}
+
+@media (max-width: 1200px) {
+    .projects h1 {
+        font-size: 3.4rem;
+
+    }
+    .project-cards-container {
+        width: 100%;
+        margin: 50px auto;
+    }
+    .project-card-content {
+        margin-top: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .project-card-content a {
+        display: flex;
+    }
+}
+@media (max-width: 1180px) {
+    .project-cards-container {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .project-card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .project-card-img {
+        width: 60%;
+    }
+    .project-card-img img {
+        margin: 0 10px;
+    }
+    .project-card-content {
+        width: 100%;
+    }
+    .project-card-content h4 {
+        text-align: center;
+        font-size: 2.2rem;
+        margin-top: 5px;
+    }
+    .project-card-content p {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .project-card a {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 900px) {
+    .project-card-content h4 {
+        font-size: 2rem;
+    }
+    .project-card-content p {
+        font-size: 1.1rem;
+    }
+    .project-card a {
+        font-size: 1rem;
+    }
+
+}
+@media (max-width: 790px) {
+    .project-card {
+        margin: 0 auto;
+    }
+    .project-card-content h4 {
+        font-size: 1.5rem;
+    }
+    .project-card-content p {
+        font-size: 1rem;
+    }
+    .project-card a {
+        font-size: 0.6rem;
+    }
 }
 </style>
