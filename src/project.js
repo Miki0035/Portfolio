@@ -19,12 +19,12 @@ export const projects =
         imageFrame: "/images/react-svgrepo-com.svg",
         imagePro: "/images/typescript-svgrepo-com.svg",
         desc: "An Admin Dashboard with greate animations. Created using React",
-        link:""
+        link:"https://mikiyaskebede-react-admin-panel.netlify.app",
     },
     {
-        title: "Profile App",
-        imageFrame: "/images/angular-svgrepo-com.svg",
-        imagePro: "/images/firebase-svgrepo-com.svg",
+        title: "React App",
+        imageFrame: "/images/react-svgrepo-com.svg",
+        imagePro: "/images/javascript-svgrepo-com.svg",
         desc: "Login/signup.App Created with Angular and Firebase",
         link:""
         

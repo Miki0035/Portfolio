@@ -5,7 +5,7 @@
             <div class="project-card" v-for="item in items" :key="item.title">
                 <div class="project-card-img">
                     <img :src="item.imageFrame" alt="Frame work image">    
-                    <img :src="item.imagePro" alt="Frame work image">
+                    <img :src="item?.imagePro" alt="Frame work image">
                 </div>
                 <div class="project-card-content">
                     <h4>{{ item.title }}</h4>
