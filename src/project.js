@@ -5,7 +5,7 @@ export const projects =
         imageFrame: "/images/vue.svg",
         imagePro: "/images/vite.svg",
         desc: "Simple to do app, to track your work. Created using Vue.js",
-        link: "https://mikiyaskebede.netlify.app"
+        link: "https://mikiyaskebede-todo-app.netlify.app"
     },
     {
         title: "Web Page",
@@ -21,12 +21,4 @@ export const projects =
         desc: "An Admin Dashboard with greate animations. Created using React",
         link:"https://mikiyaskebede-react-admin-panel.netlify.app",
     },
-    {
-        title: "React App",
-        imageFrame: "/images/react-svgrepo-com.svg",
-        imagePro: "/images/javascript-svgrepo-com.svg",
-        desc: "Login/signup.App Created with Angular and Firebase",
-        link:""
-        
-    }
 ]       

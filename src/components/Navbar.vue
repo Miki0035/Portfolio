@@ -2,7 +2,7 @@
     <div class="app-navbar-container">
         <div class="app-navbar-links">
             <ul>
-                <li><a href="#home">Home</a></li>
+                <li><a href="#home">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact Me</a></li>
                 <li><a @click="toDarkMode"><box-icon id="boxIcon" type='solid' name='moon' :color="fontColor"></box-icon></a>
